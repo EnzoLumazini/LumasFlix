@@ -1,0 +1,59 @@
+body {
+   color: white;
+   background: black;
+   margin: 0px;
+   font-family: "Mystery Quest", system-ui;
+   margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(61, 228, 42);
+    padding-left: 20px;
+    font-size: 42px;
+    color: rgb(61, 228, 42);
+}
+
+.chamada {
+    background: rgb(135, 45, 219);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.categoria-vídeos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-vídeos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-vídeos img:hover{
+    opacity: 1.0;
+    border: 2.5px solid green;
+}
+
+.categoria h2{
+    color: rgb(61, 228, 42);
+}
